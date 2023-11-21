@@ -1,0 +1,25 @@
+{
+  "results": {
+    "hellaswag": {
+      "acc": 0.2581159131647082,
+      "acc_stderr": 0.004367037632204531,
+      "acc_norm": 0.2508464449312886,
+      "acc_norm_stderr": 0.004326143430360104
+    }
+  },
+  "versions": {
+    "hellaswag": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/persist/structBabySparse/sparse_babylm_eval/opt-350m-dense,dtype=float",
+    "num_fewshot": 10,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

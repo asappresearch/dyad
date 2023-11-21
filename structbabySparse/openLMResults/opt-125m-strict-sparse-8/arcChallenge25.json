@@ -1,0 +1,25 @@
+{
+    "results": {
+      "arc_challenge": {
+        "acc": 0.2090443686006826,
+        "acc_stderr": 0.011882746987406455,
+        "acc_norm": 0.23293515358361774,
+        "acc_norm_stderr": 0.01235250704261741
+      }
+    },
+    "versions": {
+      "arc_challenge": 0
+    },
+    "config": {
+      "model": "hf-causal-experimental",
+      "model_args": "pretrained=/home/schandy/evaluation-pipeline/model_tokenizer/opt-125m-strict-sparse-8,dtype=float",
+      "num_fewshot": 25,
+      "batch_size": "2",
+      "batch_sizes": [],
+      "device": "cuda:0",
+      "no_cache": false,
+      "limit": null,
+      "bootstrap_iters": 100000,
+      "description_dict": {}
+    }
+}
