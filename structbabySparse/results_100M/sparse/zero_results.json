@@ -1,0 +1,70 @@
+[
+    {
+        "eval_accuracy": 0.9003067484662577,
+        "test": "anaphor_agreement"
+    },
+    {
+        "eval_accuracy": 0.7266902342023862,
+        "test": "control_raising"
+    },
+    {
+        "eval_accuracy": 0.7416744475568005,
+        "test": "filler_gap"
+    },
+    {
+        "eval_accuracy": 0.578101644245142,
+        "test": "island_effects"
+    },
+    {
+        "eval_accuracy": 0.509090909090909,
+        "test": "qa_congruence_tricky"
+    },
+    {
+        "eval_accuracy": 0.786449864498645,
+        "test": "subject_verb_agreement"
+    },
+    {
+        "eval_accuracy": 0.7847963142580019,
+        "test": "argument_structure"
+    },
+    {
+        "eval_accuracy": 0.9146115088835852,
+        "test": "determiner_noun_agreement"
+    },
+    {
+        "eval_accuracy": 0.4755813953488372,
+        "test": "hypernym"
+    },
+    {
+        "eval_accuracy": 0.5042514424536897,
+        "test": "npi_licensing"
+    },
+    {
+        "eval_accuracy": 0.6746522411128284,
+        "test": "quantifiers"
+    },
+    {
+        "eval_accuracy": 0.7928571428571428,
+        "test": "turn_taking"
+    },
+    {
+        "eval_accuracy": 0.7389433066191748,
+        "test": "binding"
+    },
+    {
+        "eval_accuracy": 0.8163972286374134,
+        "test": "ellipsis"
+    },
+    {
+        "eval_accuracy": 0.855470737913486,
+        "test": "irregular_forms"
+    },
+    {
+        "eval_accuracy": 0.765625,
+        "test": "qa_congruence_easy"
+    },
+    {
+        "eval_accuracy": 0.8384971944376677,
+        "test": "subject_aux_inversion"
+    }
+]

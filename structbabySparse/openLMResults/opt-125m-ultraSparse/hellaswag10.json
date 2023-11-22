@@ -1,0 +1,25 @@
+{
+    "results": {
+      "hellaswag": {
+        "acc": 0.25114519020115517,
+        "acc_stderr": 0.004327855588466415,
+        "acc_norm": 0.2483569010157339,
+        "acc_norm_stderr": 0.004311768840761209
+      }
+    },
+    "versions": {
+      "hellaswag": 0
+    },
+    "config": {
+      "model": "hf-causal-experimental",
+      "model_args": "pretrained=/home/schandy/evaluation-pipeline/model_tokenizer/opt-125m-strict-ultra-sparse,dtype=float",
+      "num_fewshot": 10,
+      "batch_size": "2",
+      "batch_sizes": [],
+      "device": "cuda:0",
+      "no_cache": false,
+      "limit": null,
+      "bootstrap_iters": 100000,
+      "description_dict": {}
+    }
+}

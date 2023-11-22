@@ -1,0 +1,25 @@
+{
+  "results": {
+    "arc_challenge": {
+      "acc": 0.19539249146757678,
+      "acc_stderr": 0.011586907189952911,
+      "acc_norm": 0.23378839590443687,
+      "acc_norm_stderr": 0.012368225378507142
+    }
+  },
+  "versions": {
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/persist/structBabySparse/sparse_babylm_eval/opt-350m-dense,dtype=float",
+    "num_fewshot": 25,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
