@@ -1,5 +1,9 @@
 # dyad
 
+This is the repository for the DYAD long paper at the NEURIPS'23 WANT workshop, by Sarin and Varun [advised by Yi Yang and Gabe Maggiotti]
+
+Here we will be sharing our layer's pytorch code and an example of how to edit a huggingface transformers existing model to use our layer instead of the typical linear layer nn.Linear(), which we refer to in our work as DENSE.
+
 This repo contains sub projects, Sparse Transformers, Sparse BabyLM Pretraining and Struct Baby Sparse.
 
 Struct Baby Sparse contains all the general configuration and profiling scripts for the dyad project.
@@ -40,3 +44,7 @@ What will this script do?
 
 It will first run on big bench temporal sequences which is a small task, to test if things are all fine. Its called task 0 in the script.
 It will then run each of the 4 tasks which constitute openLm in succession.
+<<<<<<< HEAD
+=======
+>>>>>>> 451322c (Adding code for dyad)
+>>>>>>> merge
