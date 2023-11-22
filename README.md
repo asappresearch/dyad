@@ -44,7 +44,3 @@ What will this script do?
 
 It will first run on big bench temporal sequences which is a small task, to test if things are all fine. Its called task 0 in the script.
 It will then run each of the 4 tasks which constitute openLm in succession.
-<<<<<<< HEAD
-=======
->>>>>>> 451322c (Adding code for dyad)
->>>>>>> merge
