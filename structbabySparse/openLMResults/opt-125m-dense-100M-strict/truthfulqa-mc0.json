@@ -1,0 +1,25 @@
+{
+    "results": {
+      "truthfulqa_mc": {
+        "mc1": 0.24969400244798043,
+        "mc1_stderr": 0.015152286907148125,
+        "mc2": 0.48868091878304226,
+        "mc2_stderr": 0.01618744085735224
+      }
+    },
+    "versions": {
+      "truthfulqa_mc": 1
+    },
+    "config": {
+      "model": "hf-causal-experimental",
+      "model_args": "pretrained=/home/schandy/evaluation-pipeline/model_tokenizer/opt-125m-strict-100M-dense,dtype=float",
+      "num_fewshot": 0,
+      "batch_size": "2",
+      "batch_sizes": [],
+      "device": "cuda:0",
+      "no_cache": false,
+      "limit": null,
+      "bootstrap_iters": 100000,
+      "description_dict": {}
+    }
+}

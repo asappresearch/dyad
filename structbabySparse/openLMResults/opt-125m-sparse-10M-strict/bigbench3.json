@@ -1,0 +1,23 @@
+{
+    "results": {
+      "bigbench_temporal_sequences": {
+        "multiple_choice_grade": 0.257,
+        "multiple_choice_grade_stderr": 0.013825416526895026
+      }
+    },
+    "versions": {
+      "bigbench_temporal_sequences": 0
+    },
+    "config": {
+      "model": "hf-causal-experimental",
+      "model_args": "pretrained=/home/schandy/evaluation-pipeline/model_tokenizer/opt-125m-strict-10M-sparse,dtype=float",
+      "num_fewshot": 3,
+      "batch_size": "2",
+      "batch_sizes": [],
+      "device": "cuda:0",
+      "no_cache": false,
+      "limit": null,
+      "bootstrap_iters": 100000,
+      "description_dict": {}
+    }
+  }

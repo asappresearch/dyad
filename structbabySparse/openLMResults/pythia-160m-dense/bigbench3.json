@@ -1,0 +1,23 @@
+{
+    "results": {
+      "bigbench_temporal_sequences": {
+        "multiple_choice_grade": 0.254,
+        "multiple_choice_grade_stderr": 0.01377220656516854
+      }
+    },
+    "versions": {
+      "bigbench_temporal_sequences": 0
+    },
+    "config": {
+      "model": "hf-causal-experimental",
+      "model_args": "pretrained=/home/schandy/evaluation-pipeline/model_tokenizer/pythia-160m-10M,dtype=float",
+      "num_fewshot": 3,
+      "batch_size": "2",
+      "batch_sizes": [],
+      "device": "cuda:0",
+      "no_cache": false,
+      "limit": null,
+      "bootstrap_iters": 100000,
+      "description_dict": {}
+    }
+}

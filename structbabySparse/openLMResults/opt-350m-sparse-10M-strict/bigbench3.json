@@ -1,0 +1,23 @@
+{
+  "results": {
+    "bigbench_temporal_sequences": {
+      "multiple_choice_grade": 0.248,
+      "multiple_choice_grade_stderr": 0.013663187134877665
+    }
+  },
+  "versions": {
+    "bigbench_temporal_sequences": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/persist/structBabySparse/sparse_babylm_eval/opt-350m-sparse,dtype=float",
+    "num_fewshot": 3,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

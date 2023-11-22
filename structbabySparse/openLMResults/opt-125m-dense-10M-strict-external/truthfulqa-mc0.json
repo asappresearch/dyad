@@ -1,0 +1,25 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.2484700122399021,
+      "mc1_stderr": 0.015127427096520695,
+      "mc2": 0.4972027644652921,
+      "mc2_stderr": 0.016494714777684983
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/persist/structBabySparse/sparse_babylm_eval/opt-125m-strict-small-externalFinale,dtype=float",
+    "num_fewshot": 0,
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
